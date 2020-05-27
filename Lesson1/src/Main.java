@@ -4,8 +4,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+//        Task 1 and 2
         String[] arr = {"blue", "green", "black", "white", "grey"};
-        swapElements(arr, 1, 4);
+        swapElements(arr, 0, 2);
         System.out.println(Arrays.toString(arr));
         convertToArrayList(arr);
 
